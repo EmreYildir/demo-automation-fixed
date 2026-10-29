@@ -56,7 +56,7 @@ public class CydeoLoginPageStepDefs {
     @Then("Verify the user is on the login page")
     public void verify_the_user_is_on_the_login_page() {
         BrowserUtils.sleep(1);
-        BrowserUtils.verifyTitle("Log in | dashboard");
+        BrowserUtils.verifyTitle("Cydeo LMS");
 
     }
 }

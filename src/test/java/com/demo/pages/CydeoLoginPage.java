@@ -11,7 +11,7 @@ public class CydeoLoginPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(id = "username")
+    @FindBy(id = "email")
     public WebElement username;
 
     @FindBy(id="password")
